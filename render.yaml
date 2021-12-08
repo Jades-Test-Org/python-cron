@@ -2,10 +2,10 @@ previewsEnabled: true
 previewsExpireAfterDays: 3
 services:
  - type: cron
-    name: testing cron
-    env: python
-    schedule: "0 * * * *"
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    envVars:
+   name: testing cron
+   env: python
+   schedule: "0 * * * *"
+   buildCommand: pip install -r requirements.txt
+   startCommand: python main.py
+   envVars:
     - fromGroup: My Group
