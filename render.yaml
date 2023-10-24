@@ -1,10 +1,8 @@
-previewsEnabled: true
-previewsExpireAfterDays: 3
 services:
  - type: cron
    name: cronometer
    env: python
-   schedule: "0 * * * *"
+   schedule: "0 5 * * *"
    buildCommand: pip install -r requirements.txt
    startCommand: python main.py
    envVars:
