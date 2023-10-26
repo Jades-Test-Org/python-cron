@@ -33,3 +33,4 @@ virtualenv==20.4.7
 xmltodict==0.12.0
 yamllint==1.26.1
 yq==2.12.0
+getpass
