@@ -3,12 +3,14 @@ import getpass
 
 print("whoami = " + getpass.getuser())
 
-# cwd = os.getcwd()
-# print(cwd)
+print("Current directory is" + os.getcwd())
 
+print("Changing directory to /opt/render/")
 os.chdir("/opt/render/")
+
+print("List files and directories")
 print(os.listdir())
 
-f = open("myfile.txt", "x")
+f = open("/opt/render/.cache/myfile.txt", "x")
 f.write("THIS IS A TEST")
 f.close()
