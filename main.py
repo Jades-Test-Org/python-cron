@@ -1,4 +1,7 @@
 import os
+import getpass
+
+print("whoami = " + getpass.getuser())
 
 cwd = os.getcwd()
 print(cwd)
