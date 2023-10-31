@@ -1,1 +1,1 @@
-print("hello cron")
+print("ALERT")
